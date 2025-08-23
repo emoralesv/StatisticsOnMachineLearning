@@ -4,7 +4,7 @@ Este repositorio está dedicado al estudio y aplicación de la estadística en a
 
 <p align="center">
   <img src="/images/QRcode.png" alt="Qr" width="180" style="margin-right:40px;"/>
-  <img src="/images/Octocat.png" alt="Octocat" width="3"/>
+  <img src="/images/Octocat.png" alt="Octocat" width="180"/>
 </p>
 
 ---
