@@ -3,7 +3,7 @@
 Este repositorio está dedicado al estudio y aplicación de la estadística en aprendizaje automático, combinando fundamentos teóricos con implementaciones prácticas en Python.
 
 <p align="center">
-  <img src="/images/Qr.png" alt="Qr" width="180" style="margin-right:40px;"/>
+  <img src="/images/QRcode.png" alt="Qr" width="180" style="margin-right:40px;"/>
   <img src="/images/Octocat.png" alt="Octocat" width="180"/>
 </p>
 
