@@ -1,0 +1,16 @@
+4	Planeación, obtención e interpretación de información
+4.1.	Tipo de muestra
+4.2.	Parámetros que analizar
+4.3.	Población
+4.4.	Tamaño de muestra
+4.5.	Tipos de errores estadísticos
+4.6.	Software de análisis estadístico
+5	Evaluaciones y mediciones estadísticas en investigación
+5.1.	Tipo de orden en los resultados.
+5.2.	Estadística descriptiva.
+5.3.	Tipo de prueba estadística.
+5.4.	Regresión simple.
+5.5.	Prueba de resultados por categoría.
+5.6.	Prueba para variables paramétricas.
+5.7.	Prueba para variables no paramétricas.
+5.8.	Análisis de varianza.
