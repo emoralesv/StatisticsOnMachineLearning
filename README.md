@@ -38,13 +38,56 @@ Bienvenidos a esta clase, donde exploraremos conceptos fundamentales de estadís
 ---
 
 ## ⚙️ Requisitos
-- 🐍 **Python 3**  
-- 📦 Librerías estándar de la distribución de Python  
-- 🖥️ Configuración opcional: entorno virtual  
+- 🐍 **Python 3.8+**  
+- 📦 Librerías recomendadas:  
+  - numpy  
+  - pandas  
+  - matplotlib  
+  - scipy  
+  - scikit-learn  
+- 🖥️ (Opcional) Uso de entorno virtual:  
+  ```bash
+  python -m venv venv
+  source venv/bin/activate  # En Windows: venv\Scripts\activate
+  ```
 
 ---
 
 ## 🚀 Instrucciones
+
 1. Clona el repositorio  
    ```bash
    git clone <url>
+   cd StatisticsOnMachineLearning
+   ```
+
+2. Instala las dependencias recomendadas  
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Explora los notebooks y scripts en la carpeta `/notebooks` y `/src`.
+
+4. Ejecuta los ejemplos y ejercicios para reforzar los conceptos.
+
+---
+
+## 📚 Recursos adicionales
+
+- [Documentación oficial de Python](https://docs.python.org/3/)
+- [Numpy](https://numpy.org/doc/)
+- [Pandas](https://pandas.pydata.org/docs/)
+- [Scikit-learn](https://scikit-learn.org/stable/documentation.html)
+- [Matplotlib](https://matplotlib.org/stable/users/index.html)
+
+---
+
+## 🤝 Contribuciones
+
+¡Las contribuciones son bienvenidas! Si deseas mejorar el contenido o agregar ejemplos, por favor abre un Pull Request o crea un Issue.
+
+---
+
+## 📬 Contacto
+
+Para dudas o sugerencias, contacta al mantenedor
