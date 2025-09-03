@@ -1,4 +1,4 @@
-# 📊 StatisticsOnMachineLearning
+# StatisticsOnMachineLearning
 
 Este repositorio está dedicado al estudio y aplicación de la estadística en aprendizaje automático, combinando fundamentos teóricos con implementaciones prácticas en Python.
 
@@ -9,15 +9,15 @@ Este repositorio está dedicado al estudio y aplicación de la estadística en a
 
 ---
 
-# 🎓 Class README
+# Class README
 
 Bienvenidos a esta clase, donde exploraremos conceptos fundamentales de estadística aplicados al aprendizaje automático mediante ejemplos prácticos y ejercicios guiados.
 
 ---
 
-## 🗂 Contenido
+## Contenido
 
-### 📌 Planeación, obtención e interpretación de información
+### Planeación, obtención e interpretación de información
 - Tipo de muestra  
 - Parámetros que analizar  
 - Población  
@@ -25,7 +25,7 @@ Bienvenidos a esta clase, donde exploraremos conceptos fundamentales de estadís
 - Tipos de errores estadísticos  
 - Software de análisis estadístico  
 
-### 📌 Evaluaciones y mediciones estadísticas en investigación
+### Evaluaciones y mediciones estadísticas en investigación
 - Tipo de orden en los resultados  
 - Estadística descriptiva  
 - Tipo de prueba estadística  
@@ -37,23 +37,34 @@ Bienvenidos a esta clase, donde exploraremos conceptos fundamentales de estadís
 
 ---
 
-## ⚙️ Requisitos
-- 🐍 **Python 3.8+**  
-- 📦 Librerías recomendadas:  
+## Estructura
+- `Python/`: notebooks con ejemplos y demostraciones.  
+- `utils/`: scripts para generar figuras educativas (encuestas, población vs. muestra, Venn).  
+- `images/`: recursos gráficos utilizados en el README.  
+- `requirements.txt`: dependencias recomendadas.  
+
+---
+
+## Requisitos
+- Python 3.8+  
+- Librerías recomendadas:  
   - numpy  
   - pandas  
   - matplotlib  
   - scipy  
   - scikit-learn  
-- 🖥️ (Opcional) Uso de entorno virtual:  
+- (Opcional) Uso de entorno virtual:  
   ```bash
   python -m venv venv
-  source venv/bin/activate  # En Windows: venv\Scripts\activate
+  # En Linux/Mac
+  source venv/bin/activate
+  # En Windows (PowerShell)
+  .\venv\Scripts\Activate.ps1
   ```
 
 ---
 
-## 🚀 Instrucciones
+## Instrucciones
 
 1. Clona el repositorio  
    ```bash
@@ -61,33 +72,52 @@ Bienvenidos a esta clase, donde exploraremos conceptos fundamentales de estadís
    cd StatisticsOnMachineLearning
    ```
 
-2. Instala las dependencias recomendadas  
+2. Instala las dependencias  
    ```bash
    pip install -r requirements.txt
    ```
 
-3. Explora los notebooks y scripts en la carpeta `/notebooks` y `/src`.
+3. Explora los notebooks en `Python/` y los scripts en `utils/`.
 
 4. Ejecuta los ejemplos y ejercicios para reforzar los conceptos.
 
 ---
 
-## 📚 Recursos adicionales
-
-- [Documentación oficial de Python](https://docs.python.org/3/)
-- [Numpy](https://numpy.org/doc/)
-- [Pandas](https://pandas.pydata.org/docs/)
-- [Scikit-learn](https://scikit-learn.org/stable/documentation.html)
-- [Matplotlib](https://matplotlib.org/stable/users/index.html)
+## Cómo ejecutar los scripts de `utils/`
+- Encuesta (gráfico de pastel):  
+  ```bash
+  python utils/encuestas.py  # genera encuesta.png
+  ```
+- Diagrama tipo Gantt (población, muestra y split 80/20):  
+  ```bash
+  python utils/poblacionMuestra.py  # genera gantt_poblacion_muestra_split.png
+  ```
+- Diagrama de Venn (población vs muestra):  
+  ```bash
+  python utils/poblacionMuestraVenn.py  # genera venn_poblacion_muestra.png
+  ```
 
 ---
 
-## 🤝 Contribuciones
+## Recursos adicionales
+- Documentación oficial de Python: https://docs.python.org/3/
+- Numpy: https://numpy.org/doc/
+- Pandas: https://pandas.pydata.org/docs/
+- Scikit-learn: https://scikit-learn.org/stable/documentation.html
+- Matplotlib: https://matplotlib.org/stable/users/index.html
 
+---
+
+## Temas de la clase
+Consulta `Temas.txt` para un listado sintético de los temas cubiertos.
+
+---
+
+## Contribuciones
 ¡Las contribuciones son bienvenidas! Si deseas mejorar el contenido o agregar ejemplos, por favor abre un Pull Request o crea un Issue.
 
 ---
 
-## 📬 Contacto
+## Contacto
+Para dudas o sugerencias, contacta al mantenedor.
 
-Para dudas o sugerencias, contacta al mantenedor
